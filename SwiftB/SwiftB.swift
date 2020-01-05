@@ -1,6 +1,6 @@
 //
-// ViewController.m
-// 
+// SwiftB.swift
+// SwiftB
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
 //
@@ -23,26 +23,13 @@
 // THE SOFTWARE.
 //
 
-#import "ViewController.h"
-#import "StaticAgeruyo-Swift.h"
-//#import "HNTSolver.h"
-
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *label1;
-@property (weak, nonatomic) IBOutlet UILabel *label2;
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+public struct Greeting {
+    public init(name: String) {
+        
+    }
     
-    HelloWorld *helloWorld = [HelloWorld new];
-    self.label1.text = [helloWorld hello];
-
-    self.label2.text = @"Solver's answer";
+    public var words: String {
+        // TODO: Use HNTHello
+        return "I do not know what to say"
+    }
 }
-
-
-@end

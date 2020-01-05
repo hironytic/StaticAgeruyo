@@ -1,6 +1,6 @@
 //
-// ViewController.m
-// 
+// HNTHello.m
+// ObjcA
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
 //
@@ -23,26 +23,24 @@
 // THE SOFTWARE.
 //
 
-#import "ViewController.h"
-#import "StaticAgeruyo-Swift.h"
-//#import "HNTSolver.h"
+#import "HNTHello.h"
 
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *label1;
-@property (weak, nonatomic) IBOutlet UILabel *label2;
+@interface HNTHello ()
+@property(nonatomic, copy) NSString *name;
 @end
 
-@implementation ViewController
+@implementation HNTHello
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    HelloWorld *helloWorld = [HelloWorld new];
-    self.label1.text = [helloWorld hello];
-
-    self.label2.text = @"Solver's answer";
+- (instancetype)initWithName:(NSString *)name {
+    self = [super init];
+    if (self != nil) {
+        _name = name;
+    }
+    return self;
 }
 
+- (NSString *)say {
+    return [NSString stringWithFormat:@"Hello, %@.", self.name];
+}
 
 @end

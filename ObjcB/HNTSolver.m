@@ -1,6 +1,6 @@
 //
-// ViewController.m
-// 
+// HNTSolver.m
+// ObjcB
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
 //
@@ -23,26 +23,21 @@
 // THE SOFTWARE.
 //
 
-#import "ViewController.h"
-#import "StaticAgeruyo-Swift.h"
-//#import "HNTSolver.h"
+#import "HNTSolver.h"
 
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *label1;
-@property (weak, nonatomic) IBOutlet UILabel *label2;
-@end
+@implementation HNTSolver
 
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    HelloWorld *helloWorld = [HelloWorld new];
-    self.label1.text = [helloWorld hello];
-
-    self.label2.text = @"Solver's answer";
+- (instancetype)initWithProblem:(NSString *)problem {
+    self = [super init];
+    if (self != nil) {
+        
+    }
+    return self;
 }
 
+- (NSInteger)solve {
+    // TODO: Use Answer
+    return -1;
+}
 
 @end

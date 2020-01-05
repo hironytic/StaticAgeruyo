@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506EE5AD23C1A3F800187676 /* ObjcA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 506EE5AA23C1A3F800187676 /* ObjcA.h */; };
+		506EE5B323C1A44D00187676 /* HNTHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5B223C1A44D00187676 /* HNTHello.m */; };
+		506EE5BB23C1A5A800187676 /* SwiftB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5BA23C1A5A800187676 /* SwiftB.swift */; };
+		506EE5C023C1A72600187676 /* libObjcA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5A823C1A3F800187676 /* libObjcA.a */; };
+		506EE5C123C1A72600187676 /* libSwiftB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5B823C1A5A800187676 /* libSwiftB.a */; };
+		506EE5CA23C1A7ED00187676 /* SwiftSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5C923C1A7ED00187676 /* SwiftSource.swift */; };
+		506EE5D223C1AB8600187676 /* SwiftA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5D123C1AB8600187676 /* SwiftA.swift */; };
+		506EE5DF23C1AC0700187676 /* ObjcB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 506EE5DC23C1AC0700187676 /* ObjcB.h */; };
+		506EE5E523C1AC5500187676 /* HNTSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5E423C1AC5500187676 /* HNTSolver.m */; };
+		506EE5E823C1ACE100187676 /* libObjcB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5DA23C1AC0700187676 /* libObjcB.a */; };
+		506EE5E923C1ACE100187676 /* libSwiftA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5CF23C1AB8600187676 /* libSwiftA.a */; };
 		50BCC64D23C19362009EB421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC64C23C19362009EB421 /* AppDelegate.m */; };
 		50BCC65023C19362009EB421 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC64F23C19362009EB421 /* SceneDelegate.m */; };
 		50BCC65323C19362009EB421 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC65223C19362009EB421 /* ViewController.m */; };
@@ -18,6 +29,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		506EE5C423C1A73300187676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506EE5B723C1A5A800187676;
+			remoteInfo = SwiftB;
+		};
+		506EE5C623C1A74000187676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506EE5A723C1A3F800187676;
+			remoteInfo = ObjcA;
+		};
+		506EE5E623C1ACD200187676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506EE5D923C1AC0700187676;
+			remoteInfo = ObjcB;
+		};
+		506EE5EA23C1E2F000187676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506EE5CE23C1AB8600187676;
+			remoteInfo = SwiftA;
+		};
 		50BCC66423C19364009EB421 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
@@ -27,7 +66,62 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		506EE5A623C1A3F800187676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				506EE5AD23C1A3F800187676 /* ObjcA.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5B623C1A5A800187676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5CD23C1AB8600187676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5D823C1AC0700187676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				506EE5DF23C1AC0700187676 /* ObjcB.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		506EE5A823C1A3F800187676 /* libObjcA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjcA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		506EE5AA23C1A3F800187676 /* ObjcA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcA.h; sourceTree = "<group>"; };
+		506EE5B123C1A44D00187676 /* HNTHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTHello.h; sourceTree = "<group>"; };
+		506EE5B223C1A44D00187676 /* HNTHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTHello.m; sourceTree = "<group>"; };
+		506EE5B823C1A5A800187676 /* libSwiftB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		506EE5BA23C1A5A800187676 /* SwiftB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftB.swift; sourceTree = "<group>"; };
+		506EE5C823C1A7ED00187676 /* StaticAgeruyo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaticAgeruyo-Bridging-Header.h"; sourceTree = "<group>"; };
+		506EE5C923C1A7ED00187676 /* SwiftSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSource.swift; sourceTree = "<group>"; };
+		506EE5CF23C1AB8600187676 /* libSwiftA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		506EE5D123C1AB8600187676 /* SwiftA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftA.swift; sourceTree = "<group>"; };
+		506EE5DA23C1AC0700187676 /* libObjcB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjcB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		506EE5DC23C1AC0700187676 /* ObjcB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcB.h; sourceTree = "<group>"; };
+		506EE5E323C1AC5500187676 /* HNTSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTSolver.h; sourceTree = "<group>"; };
+		506EE5E423C1AC5500187676 /* HNTSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTSolver.m; sourceTree = "<group>"; };
 		50BCC64823C19361009EB421 /* StaticAgeruyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticAgeruyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCC64B23C19362009EB421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50BCC64C23C19362009EB421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,10 +140,42 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		506EE5A523C1A3F800187676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5B523C1A5A800187676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5CC23C1AB8600187676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5D723C1AC0700187676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50BCC64523C19361009EB421 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506EE5E823C1ACE100187676 /* libObjcB.a in Frameworks */,
+				506EE5E923C1ACE100187676 /* libSwiftA.a in Frameworks */,
+				506EE5C023C1A72600187676 /* libObjcA.a in Frameworks */,
+				506EE5C123C1A72600187676 /* libSwiftB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +189,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506EE5A923C1A3F800187676 /* ObjcA */ = {
+			isa = PBXGroup;
+			children = (
+				506EE5AA23C1A3F800187676 /* ObjcA.h */,
+				506EE5B123C1A44D00187676 /* HNTHello.h */,
+				506EE5B223C1A44D00187676 /* HNTHello.m */,
+			);
+			path = ObjcA;
+			sourceTree = "<group>";
+		};
+		506EE5B923C1A5A800187676 /* SwiftB */ = {
+			isa = PBXGroup;
+			children = (
+				506EE5BA23C1A5A800187676 /* SwiftB.swift */,
+			);
+			path = SwiftB;
+			sourceTree = "<group>";
+		};
+		506EE5BF23C1A72600187676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		506EE5D023C1AB8600187676 /* SwiftA */ = {
+			isa = PBXGroup;
+			children = (
+				506EE5D123C1AB8600187676 /* SwiftA.swift */,
+			);
+			path = SwiftA;
+			sourceTree = "<group>";
+		};
+		506EE5DB23C1AC0700187676 /* ObjcB */ = {
+			isa = PBXGroup;
+			children = (
+				506EE5DC23C1AC0700187676 /* ObjcB.h */,
+				506EE5E323C1AC5500187676 /* HNTSolver.h */,
+				506EE5E423C1AC5500187676 /* HNTSolver.m */,
+			);
+			path = ObjcB;
+			sourceTree = "<group>";
+		};
 		50BCC63F23C19361009EB421 = {
 			isa = PBXGroup;
 			children = (
 				50BCC64A23C19361009EB421 /* StaticAgeruyo */,
+				506EE5A923C1A3F800187676 /* ObjcA */,
 				50BCC66623C19364009EB421 /* StaticAgeruyoTests */,
+				506EE5B923C1A5A800187676 /* SwiftB */,
+				506EE5D023C1AB8600187676 /* SwiftA */,
+				506EE5DB23C1AC0700187676 /* ObjcB */,
 				50BCC64923C19361009EB421 /* Products */,
+				506EE5BF23C1A72600187676 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +251,10 @@
 			children = (
 				50BCC64823C19361009EB421 /* StaticAgeruyo.app */,
 				50BCC66323C19364009EB421 /* StaticAgeruyoTests.xctest */,
+				506EE5A823C1A3F800187676 /* libObjcA.a */,
+				506EE5B823C1A5A800187676 /* libSwiftB.a */,
+				506EE5CF23C1AB8600187676 /* libSwiftA.a */,
+				506EE5DA23C1AC0700187676 /* libObjcB.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +273,8 @@
 				50BCC65923C19364009EB421 /* LaunchScreen.storyboard */,
 				50BCC65C23C19364009EB421 /* Info.plist */,
 				50BCC65D23C19364009EB421 /* main.m */,
+				506EE5C923C1A7ED00187676 /* SwiftSource.swift */,
+				506EE5C823C1A7ED00187676 /* StaticAgeruyo-Bridging-Header.h */,
 			);
 			path = StaticAgeruyo;
 			sourceTree = "<group>";
@@ -111,6 +291,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		506EE5A723C1A3F800187676 /* ObjcA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506EE5B023C1A3F800187676 /* Build configuration list for PBXNativeTarget "ObjcA" */;
+			buildPhases = (
+				506EE5A423C1A3F800187676 /* Sources */,
+				506EE5A523C1A3F800187676 /* Frameworks */,
+				506EE5A623C1A3F800187676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcA;
+			productName = ObjcA;
+			productReference = 506EE5A823C1A3F800187676 /* libObjcA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		506EE5B723C1A5A800187676 /* SwiftB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506EE5BC23C1A5A800187676 /* Build configuration list for PBXNativeTarget "SwiftB" */;
+			buildPhases = (
+				506EE5B423C1A5A800187676 /* Sources */,
+				506EE5B523C1A5A800187676 /* Frameworks */,
+				506EE5B623C1A5A800187676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506EE5C723C1A74000187676 /* PBXTargetDependency */,
+			);
+			name = SwiftB;
+			productName = SwiftB;
+			productReference = 506EE5B823C1A5A800187676 /* libSwiftB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		506EE5CE23C1AB8600187676 /* SwiftA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506EE5D323C1AB8600187676 /* Build configuration list for PBXNativeTarget "SwiftA" */;
+			buildPhases = (
+				506EE5CB23C1AB8600187676 /* Sources */,
+				506EE5CC23C1AB8600187676 /* Frameworks */,
+				506EE5CD23C1AB8600187676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftA;
+			productName = SwiftA;
+			productReference = 506EE5CF23C1AB8600187676 /* libSwiftA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		506EE5D923C1AC0700187676 /* ObjcB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506EE5E023C1AC0700187676 /* Build configuration list for PBXNativeTarget "ObjcB" */;
+			buildPhases = (
+				506EE5D623C1AC0700187676 /* Sources */,
+				506EE5D723C1AC0700187676 /* Frameworks */,
+				506EE5D823C1AC0700187676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506EE5EB23C1E2F000187676 /* PBXTargetDependency */,
+			);
+			name = ObjcB;
+			productName = ObjcB;
+			productReference = 506EE5DA23C1AC0700187676 /* libObjcB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		50BCC64723C19361009EB421 /* StaticAgeruyo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50BCC66C23C19364009EB421 /* Build configuration list for PBXNativeTarget "StaticAgeruyo" */;
@@ -122,6 +372,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				506EE5E723C1ACD200187676 /* PBXTargetDependency */,
+				506EE5C523C1A73300187676 /* PBXTargetDependency */,
 			);
 			name = StaticAgeruyo;
 			productName = StaticAgeruyo;
@@ -152,11 +404,25 @@
 		50BCC64023C19361009EB421 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Hironytic;
 				TargetAttributes = {
+					506EE5A723C1A3F800187676 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					506EE5B723C1A5A800187676 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					506EE5CE23C1AB8600187676 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					506EE5D923C1AC0700187676 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					50BCC64723C19361009EB421 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					50BCC66223C19364009EB421 = {
 						CreatedOnToolsVersion = 11.3;
@@ -179,6 +445,10 @@
 			targets = (
 				50BCC64723C19361009EB421 /* StaticAgeruyo */,
 				50BCC66223C19364009EB421 /* StaticAgeruyoTests */,
+				506EE5A723C1A3F800187676 /* ObjcA */,
+				506EE5B723C1A5A800187676 /* SwiftB */,
+				506EE5CE23C1AB8600187676 /* SwiftA */,
+				506EE5D923C1AC0700187676 /* ObjcB */,
 			);
 		};
 /* End PBXProject section */
@@ -204,12 +474,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		506EE5A423C1A3F800187676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506EE5B323C1A44D00187676 /* HNTHello.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5B423C1A5A800187676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506EE5BB23C1A5A800187676 /* SwiftB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5CB23C1AB8600187676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506EE5D223C1AB8600187676 /* SwiftA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506EE5D623C1AC0700187676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506EE5E523C1AC5500187676 /* HNTSolver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50BCC64423C19361009EB421 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50BCC65323C19362009EB421 /* ViewController.m in Sources */,
 				50BCC64D23C19362009EB421 /* AppDelegate.m in Sources */,
+				506EE5CA23C1A7ED00187676 /* SwiftSource.swift in Sources */,
 				50BCC65E23C19364009EB421 /* main.m in Sources */,
 				50BCC65023C19362009EB421 /* SceneDelegate.m in Sources */,
 			);
@@ -226,6 +529,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		506EE5C523C1A73300187676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506EE5B723C1A5A800187676 /* SwiftB */;
+			targetProxy = 506EE5C423C1A73300187676 /* PBXContainerItemProxy */;
+		};
+		506EE5C723C1A74000187676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506EE5A723C1A3F800187676 /* ObjcA */;
+			targetProxy = 506EE5C623C1A74000187676 /* PBXContainerItemProxy */;
+		};
+		506EE5E723C1ACD200187676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506EE5D923C1AC0700187676 /* ObjcB */;
+			targetProxy = 506EE5E623C1ACD200187676 /* PBXContainerItemProxy */;
+		};
+		506EE5EB23C1E2F000187676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506EE5CE23C1AB8600187676 /* SwiftA */;
+			targetProxy = 506EE5EA23C1E2F000187676 /* PBXContainerItemProxy */;
+		};
 		50BCC66523C19364009EB421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 50BCC64723C19361009EB421 /* StaticAgeruyo */;
@@ -253,6 +576,114 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		506EE5AE23C1A3F800187676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506EE5AF23C1A3F800187676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506EE5BD23C1A5A800187676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506EE5BE23C1A5A800187676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506EE5D423C1AB8600187676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506EE5D523C1AB8600187676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506EE5E123C1AC0700187676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506EE5E223C1AC0700187676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPZSBGGQZS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		50BCC66A23C19364009EB421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -308,6 +739,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
@@ -359,6 +791,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USE_HEADERMAP = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -367,6 +800,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPZSBGGQZS;
 				INFOPLIST_FILE = StaticAgeruyo/Info.plist;
@@ -376,6 +810,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.exp.StaticAgeruyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StaticAgeruyo/StaticAgeruyo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -384,6 +821,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPZSBGGQZS;
 				INFOPLIST_FILE = StaticAgeruyo/Info.plist;
@@ -393,6 +831,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.exp.StaticAgeruyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StaticAgeruyo/StaticAgeruyo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -400,6 +840,7 @@
 		50BCC67023C19364009EB421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPZSBGGQZS;
@@ -420,6 +861,7 @@
 		50BCC67123C19364009EB421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPZSBGGQZS;
@@ -440,6 +882,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		506EE5B023C1A3F800187676 /* Build configuration list for PBXNativeTarget "ObjcA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506EE5AE23C1A3F800187676 /* Debug */,
+				506EE5AF23C1A3F800187676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506EE5BC23C1A5A800187676 /* Build configuration list for PBXNativeTarget "SwiftB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506EE5BD23C1A5A800187676 /* Debug */,
+				506EE5BE23C1A5A800187676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506EE5D323C1AB8600187676 /* Build configuration list for PBXNativeTarget "SwiftA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506EE5D423C1AB8600187676 /* Debug */,
+				506EE5D523C1AB8600187676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506EE5E023C1AC0700187676 /* Build configuration list for PBXNativeTarget "ObjcB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506EE5E123C1AC0700187676 /* Debug */,
+				506EE5E223C1AC0700187676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		50BCC64323C19361009EB421 /* Build configuration list for PBXProject "StaticAgeruyo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

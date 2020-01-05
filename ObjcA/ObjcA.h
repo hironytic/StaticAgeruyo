@@ -1,6 +1,6 @@
 //
-// ViewController.m
-// 
+// ObjcA.h
+// ObjcA
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
 //
@@ -23,26 +23,5 @@
 // THE SOFTWARE.
 //
 
-#import "ViewController.h"
-#import "StaticAgeruyo-Swift.h"
-//#import "HNTSolver.h"
-
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *label1;
-@property (weak, nonatomic) IBOutlet UILabel *label2;
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    HelloWorld *helloWorld = [HelloWorld new];
-    self.label1.text = [helloWorld hello];
-
-    self.label2.text = @"Solver's answer";
-}
-
-
-@end
+#import <Foundation/Foundation.h>
+#import "HNTHello.h"
