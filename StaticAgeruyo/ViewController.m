@@ -27,6 +27,8 @@
 #import "StaticAgeruyo-Swift.h"
 //#import "HNTSolver.h"
 
+@import ObjcA;
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label1;
 @property (weak, nonatomic) IBOutlet UILabel *label2;
@@ -42,6 +44,9 @@
     self.label1.text = [helloWorld hello];
 
     self.label2.text = @"Solver's answer";
+    
+    HNTHello *hello = [[HNTHello alloc] initWithName:@"John"];
+    NSLog(@"%@", [hello say]);
 }
 
 

@@ -57,6 +57,13 @@
 			remoteGlobalIDString = 506EE5CE23C1AB8600187676;
 			remoteInfo = SwiftA;
 		};
+		506EE5F323C1F29100187676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506EE5A723C1A3F800187676;
+			remoteInfo = ObjcA;
+		};
 		50BCC66423C19364009EB421 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 50BCC64023C19361009EB421 /* Project object */;
@@ -374,6 +381,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				506EE5F423C1F29100187676 /* PBXTargetDependency */,
 				506EE5E723C1ACD200187676 /* PBXTargetDependency */,
 				506EE5C523C1A73300187676 /* PBXTargetDependency */,
 			);
@@ -550,6 +558,11 @@
 			isa = PBXTargetDependency;
 			target = 506EE5CE23C1AB8600187676 /* SwiftA */;
 			targetProxy = 506EE5EA23C1E2F000187676 /* PBXContainerItemProxy */;
+		};
+		506EE5F423C1F29100187676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506EE5A723C1A3F800187676 /* ObjcA */;
+			targetProxy = 506EE5F323C1F29100187676 /* PBXContainerItemProxy */;
 		};
 		50BCC66523C19364009EB421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -818,6 +831,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ObjcA";
 			};
 			name = Debug;
 		};
@@ -838,6 +852,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "StaticAgeruyo/StaticAgeruyo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ObjcA";
 			};
 			name = Release;
 		};
