@@ -18,6 +18,8 @@
 		506EE5E523C1AC5500187676 /* HNTSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5E423C1AC5500187676 /* HNTSolver.m */; };
 		506EE5E823C1ACE100187676 /* libObjcB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5DA23C1AC0700187676 /* libObjcB.a */; };
 		506EE5E923C1ACE100187676 /* libSwiftA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5CF23C1AB8600187676 /* libSwiftA.a */; };
+		506EE5F623C1F56800187676 /* HNTHello.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 506EE5B123C1A44D00187676 /* HNTHello.h */; };
+		506EE5F723C1F56E00187676 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 506EE5F523C1F54500187676 /* module.modulemap */; };
 		50BCC64D23C19362009EB421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC64C23C19362009EB421 /* AppDelegate.m */; };
 		50BCC65023C19362009EB421 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC64F23C19362009EB421 /* SceneDelegate.m */; };
 		50BCC65323C19362009EB421 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC65223C19362009EB421 /* ViewController.m */; };
@@ -73,6 +75,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				506EE5F723C1F56E00187676 /* module.modulemap in CopyFiles */,
+				506EE5F623C1F56800187676 /* HNTHello.h in CopyFiles */,
 				506EE5AD23C1A3F800187676 /* ObjcA.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +126,7 @@
 		506EE5DC23C1AC0700187676 /* ObjcB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcB.h; sourceTree = "<group>"; };
 		506EE5E323C1AC5500187676 /* HNTSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTSolver.h; sourceTree = "<group>"; };
 		506EE5E423C1AC5500187676 /* HNTSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTSolver.m; sourceTree = "<group>"; };
+		506EE5F523C1F54500187676 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		50BCC64823C19361009EB421 /* StaticAgeruyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticAgeruyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCC64B23C19362009EB421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50BCC64C23C19362009EB421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -195,6 +200,7 @@
 				506EE5AA23C1A3F800187676 /* ObjcA.h */,
 				506EE5B123C1A44D00187676 /* HNTHello.h */,
 				506EE5B223C1A44D00187676 /* HNTHello.m */,
+				506EE5F523C1F54500187676 /* module.modulemap */,
 			);
 			path = ObjcA;
 			sourceTree = "<group>";
