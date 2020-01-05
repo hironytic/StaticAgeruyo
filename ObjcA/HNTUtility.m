@@ -1,5 +1,5 @@
 //
-// HNTDeep.m
+// HNTUtility.m
 // ObjcA
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
@@ -23,12 +23,24 @@
 // THE SOFTWARE.
 //
 
-#import "HNTDeep.h"
+#import "HNTUtility.h"
 
-@implementation HNTDeep
+@implementation HNTUtility
 
-- (HNTAnimal)animal {
-    return HNTAnimalDog;
++ (NSString *)stringForAnimal:(HNTAnimal)animal {
+    switch (animal) {
+        case HNTAnimalDog:
+            return @"Dog";
+            break;
+            
+        case HNTAnimalCat:
+            return @"Cat";
+            break;
+            
+        default:
+            return @"";
+            break;
+    }
 }
 
 @end

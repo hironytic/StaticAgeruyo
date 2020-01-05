@@ -1,5 +1,5 @@
 //
-// ObjcA.h
+// HNTUtility.h
 // ObjcA
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
@@ -24,4 +24,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HNTHello.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+typedef NS_ENUM(NSInteger, HNTAnimal) {
+    HNTAnimalDog,
+    HNTAnimalCat,
+};
+
+@interface HNTUtility : NSObject
+
++ (NSString *)stringForAnimal:(HNTAnimal)animal;
+
+@end
+
+NS_ASSUME_NONNULL_END

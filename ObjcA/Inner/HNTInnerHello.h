@@ -24,11 +24,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Deep/HNTDeep.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HNTInnerHello : HNTDeep
+@interface HNTInnerHello : NSObject
 
 - (NSString *)hello;
 

@@ -18,6 +18,7 @@
 		506EE5E923C1ACE100187676 /* libSwiftA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE5CF23C1AB8600187676 /* libSwiftA.a */; };
 		506EE5FE23C1F90300187676 /* HNTInnerHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EE5FD23C1F90300187676 /* HNTInnerHello.m */; };
 		506EE60223C1FA2C00187676 /* HNTDeep.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EE60123C1FA2C00187676 /* HNTDeep.m */; };
+		506EE62E23C216AE00187676 /* HNTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EE62D23C216AE00187676 /* HNTUtility.m */; };
 		50BCC64D23C19362009EB421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC64C23C19362009EB421 /* AppDelegate.m */; };
 		50BCC65023C19362009EB421 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC64F23C19362009EB421 /* SceneDelegate.m */; };
 		50BCC65323C19362009EB421 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC65223C19362009EB421 /* ViewController.m */; };
@@ -114,7 +115,6 @@
 
 /* Begin PBXFileReference section */
 		506EE5A823C1A3F800187676 /* libObjcA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjcA.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		506EE5AA23C1A3F800187676 /* ObjcA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcA.h; sourceTree = "<group>"; };
 		506EE5B123C1A44D00187676 /* HNTHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTHello.h; sourceTree = "<group>"; };
 		506EE5B223C1A44D00187676 /* HNTHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTHello.m; sourceTree = "<group>"; };
 		506EE5B823C1A5A800187676 /* libSwiftB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftB.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +132,8 @@
 		506EE5FD23C1F90300187676 /* HNTInnerHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTInnerHello.m; sourceTree = "<group>"; };
 		506EE60023C1FA2C00187676 /* HNTDeep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTDeep.h; sourceTree = "<group>"; };
 		506EE60123C1FA2C00187676 /* HNTDeep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTDeep.m; sourceTree = "<group>"; };
+		506EE62C23C216AE00187676 /* HNTUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTUtility.h; sourceTree = "<group>"; };
+		506EE62D23C216AE00187676 /* HNTUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTUtility.m; sourceTree = "<group>"; };
 		50BCC64823C19361009EB421 /* StaticAgeruyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticAgeruyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCC64B23C19362009EB421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50BCC64C23C19362009EB421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -203,9 +205,10 @@
 			isa = PBXGroup;
 			children = (
 				506EE5FB23C1F8EF00187676 /* Inner */,
-				506EE5AA23C1A3F800187676 /* ObjcA.h */,
 				506EE5B123C1A44D00187676 /* HNTHello.h */,
 				506EE5B223C1A44D00187676 /* HNTHello.m */,
+				506EE62C23C216AE00187676 /* HNTUtility.h */,
+				506EE62D23C216AE00187676 /* HNTUtility.m */,
 				506EE5F223C1E98600187676 /* module.modulemap */,
 			);
 			path = ObjcA;
@@ -511,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				506EE60223C1FA2C00187676 /* HNTDeep.m in Sources */,
+				506EE62E23C216AE00187676 /* HNTUtility.m in Sources */,
 				506EE5FE23C1F90300187676 /* HNTInnerHello.m in Sources */,
 				506EE5B323C1A44D00187676 /* HNTHello.m in Sources */,
 			);

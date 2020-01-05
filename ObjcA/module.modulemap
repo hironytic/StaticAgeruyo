@@ -1,4 +1,8 @@
 module ObjcA {
-    umbrella header "ObjcA.h"
+    header "Inner/Deep/HNTDeep.h"
+    header "Inner/HNTInnerHello.h"
+    header "HNTHello.h"
+    header "HNTUtility.h"
+    
     export *
 }
