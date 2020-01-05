@@ -24,12 +24,13 @@
 //
 
 public struct Greeting {
+    private let hello: HNTHello
+    
     public init(name: String) {
-        
+        hello = HNTHello(name: name)
     }
     
     public var words: String {
-        // TODO: Use HNTHello
-        return "I do not know what to say"
+        return hello.say()
     }
 }
