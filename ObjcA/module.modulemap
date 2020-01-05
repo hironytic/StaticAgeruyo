@@ -1,0 +1,4 @@
+module ObjcA {
+    umbrella header "ObjcA.h"
+    export *
+}

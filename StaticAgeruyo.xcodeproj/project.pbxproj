@@ -122,6 +122,7 @@
 		506EE5DC23C1AC0700187676 /* ObjcB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcB.h; sourceTree = "<group>"; };
 		506EE5E323C1AC5500187676 /* HNTSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNTSolver.h; sourceTree = "<group>"; };
 		506EE5E423C1AC5500187676 /* HNTSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNTSolver.m; sourceTree = "<group>"; };
+		506EE5F223C1E98600187676 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		50BCC64823C19361009EB421 /* StaticAgeruyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticAgeruyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCC64B23C19362009EB421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50BCC64C23C19362009EB421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -195,6 +196,7 @@
 				506EE5AA23C1A3F800187676 /* ObjcA.h */,
 				506EE5B123C1A44D00187676 /* HNTHello.h */,
 				506EE5B223C1A44D00187676 /* HNTHello.m */,
+				506EE5F223C1E98600187676 /* module.modulemap */,
 			);
 			path = ObjcA;
 			sourceTree = "<group>";
@@ -609,6 +611,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ObjcA";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,6 +627,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ObjcA";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
