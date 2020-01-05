@@ -1,5 +1,5 @@
 //
-// HNTHello.m
+// HNTDeep.m
 // ObjcA
 //
 // Copyright (c) 2020 Hironori Ichimiya <hiron@hironytic.com>
@@ -23,24 +23,8 @@
 // THE SOFTWARE.
 //
 
-#import "HNTHello.h"
+#import "HNTDeep.h"
 
-@interface HNTHello ()
-@property(nonatomic, copy) NSString *name;
-@end
-
-@implementation HNTHello
-
-- (instancetype)initWithName:(NSString *)name {
-    self = [super init];
-    if (self != nil) {
-        _name = name;
-    }
-    return self;
-}
-
-- (NSString *)say {
-    return [NSString stringWithFormat:@"%@, %@.", [self hello], self.name];
-}
+@implementation HNTDeep
 
 @end

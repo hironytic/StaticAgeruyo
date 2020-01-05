@@ -24,10 +24,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Inner/HNTInnerHello.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HNTHello : NSObject
+@interface HNTHello : HNTInnerHello
 
 - (instancetype)init UNAVAILABLE_ATTRIBUTE;
 - (instancetype)initWithName:(NSString *)name;
