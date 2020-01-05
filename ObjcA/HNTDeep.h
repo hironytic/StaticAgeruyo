@@ -25,7 +25,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "../../HNTUtility.h"
+#import "HNTUtility.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
