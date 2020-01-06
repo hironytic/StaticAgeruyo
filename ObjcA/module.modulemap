@@ -1,8 +1,5 @@
 module ObjcA {
-    header "Inner/Deep/HNTDeep.h"
-    header "Inner/HNTInnerHello.h"
-    header "HNTHello.h"
-    header "HNTUtility.h"
+    header "ObjcA.h"
     
     export *
 }

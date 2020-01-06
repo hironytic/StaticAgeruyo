@@ -149,6 +149,7 @@
 		50BCC66323C19364009EB421 /* StaticAgeruyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticAgeruyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCC66723C19364009EB421 /* StaticAgeruyoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticAgeruyoTests.m; sourceTree = "<group>"; };
 		50BCC66923C19364009EB421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86FF69CF23C2CB4C00796693 /* ObjcA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +211,7 @@
 				506EE62C23C216AE00187676 /* HNTUtility.h */,
 				506EE62D23C216AE00187676 /* HNTUtility.m */,
 				506EE5F223C1E98600187676 /* module.modulemap */,
+				86FF69CF23C2CB4C00796693 /* ObjcA.h */,
 			);
 			path = ObjcA;
 			sourceTree = "<group>";
