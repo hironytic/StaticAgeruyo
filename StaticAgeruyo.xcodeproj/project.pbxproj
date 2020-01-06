@@ -204,6 +204,8 @@
 		506EE5A923C1A3F800187676 /* ObjcA */ = {
 			isa = PBXGroup;
 			children = (
+				506EE60023C1FA2C00187676 /* HNTDeep.h */,
+				506EE60123C1FA2C00187676 /* HNTDeep.m */,
 				506EE5FB23C1F8EF00187676 /* Inner */,
 				506EE5B123C1A44D00187676 /* HNTHello.h */,
 				506EE5B223C1A44D00187676 /* HNTHello.m */,
@@ -260,8 +262,6 @@
 		506EE5FF23C1FA1200187676 /* Deep */ = {
 			isa = PBXGroup;
 			children = (
-				506EE60023C1FA2C00187676 /* HNTDeep.h */,
-				506EE60123C1FA2C00187676 /* HNTDeep.m */,
 			);
 			path = Deep;
 			sourceTree = "<group>";
