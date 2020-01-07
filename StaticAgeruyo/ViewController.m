@@ -27,6 +27,8 @@
 #import "StaticAgeruyo-Swift.h"
 //#import "HNTSolver.h"
 
+@import ObjcF;
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label1;
 @property (weak, nonatomic) IBOutlet UILabel *label2;
@@ -41,7 +43,9 @@
     HelloWorld *helloWorld = [HelloWorld new];
     self.label1.text = [helloWorld hello];
 
-    self.label2.text = @"Solver's answer";
+    HNTFrame *frame = [HNTFrame new];
+    CGRect rect = [frame frame];
+    self.label2.text = NSStringFromCGRect(rect);
 }
 
 
